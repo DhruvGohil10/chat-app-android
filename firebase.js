@@ -8,13 +8,6 @@ import { getStorage } from "firebase/storage";
 import { initializeFirestore } from "firebase/firestore";
 const firebaseConfig = {
 	// your config goes here
-	apiKey: "AIzaSyAqygLC4ID1WxyWZVXlLX_rY368pFLEgUE",
-	authDomain: "cheto-b3750.firebaseapp.com",
-	projectId: "cheto-b3750",
-	storageBucket: "cheto-b3750.appspot.com",
-	messagingSenderId: "679103969405",
-	appId: "1:679103969405:web:e27013e8b47306f02ed914",
-	measurementId: "G-29W6KK0GDT",
 };
 
 export const app = initializeApp(firebaseConfig);
